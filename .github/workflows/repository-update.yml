@@ -1,7 +1,7 @@
 name: Repository update
 on:
-#  schedule:
-#    - cron: "*/15 * * * *"
+  schedule:
+    - cron: "0 2 * * *"
   workflow_dispatch:
     inputs:
       BUILD_BRANCH:
